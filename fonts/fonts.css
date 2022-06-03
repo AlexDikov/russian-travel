@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Inter-Regular.otf);
+}
+@font-face {
+  font-family: Inter;
+  font-style: bold;
+  font-weight: 900;
+  src: url(./Inter-Black.otf);
+}
