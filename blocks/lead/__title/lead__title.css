@@ -2,8 +2,8 @@
   font-weight: 900;
   line-height: 100px;
   font-size: 96px;
-  width: 720px;
-  margin: 56px auto 0;
+  max-width: 720px;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
 }

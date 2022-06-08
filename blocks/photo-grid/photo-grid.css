@@ -1,11 +1,7 @@
 .photo-grid {
-  padding: 92px 48px 0;
   display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(213px, 1fr));
   column-gap: 16px;
   row-gap: 16px;
 }
