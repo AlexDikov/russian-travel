@@ -1,0 +1,9 @@
+.header__lang-items {
+  margin-top: 18px;
+}
+
+@media screen and (max-width:550px) {
+  .header__lang-items {
+    margin-top: 14px;
+  }
+}

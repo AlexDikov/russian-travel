@@ -1,6 +1,19 @@
 .footer {
   display: flex;
-  margin: 72px auto 0;
-  max-width: 1184px;
-  overflow: auto;
+  justify-content: space-between;
+  padding: 0 48px 0;
+}
+
+@media screen and (max-width:890px) {
+  .footer {
+    padding: 0 24px 0;
+  }
+}
+
+@media screen and (max-width:745px) {
+  .footer {
+    padding: 0 16px 0;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }

@@ -1,5 +1,26 @@
 .content  {
+  margin: 56px 0 92px;
   flex-shrink: 0;
   display: grid;
   grid-row-gap: 92px;
+}
+
+@media screen and (max-width:1150px) {
+  .content {
+  margin-top: 48px;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .content {
+    grid-row-gap: 88px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .content {
+    grid-row-gap: 64px;
+    margin-bottom: 64px;
+  }
 }

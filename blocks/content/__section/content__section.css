@@ -4,3 +4,21 @@
   padding:0 48px;
   margin: 0 auto 0;
 }
+
+@media screen and (max-width:1150px) {
+  .content__section:last-of-type {
+    padding:0;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .content__section {
+    padding:0 24px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .content__section {
+    padding:0 16px;
+  }
+}

@@ -4,5 +4,21 @@
   font-size: 18px;
   margin: 0;
   padding: 0;
-  max-width: 484px;
+}
+
+.place__paragraph:first-of-type {
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width:890px) {
+  .place__paragraph {
+    line-height: 26px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
 }
