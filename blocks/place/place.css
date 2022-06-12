@@ -2,7 +2,7 @@
   display: grid;
   max-width: 984px;
   grid-template-columns: 460px 484px;
-  grid-template-rows: minmax(76px, 152px) 460px;
+  grid-template-rows: max-content 460px;
   column-gap: 40px;
   row-gap: 40px;
   margin-top: 80px;
@@ -15,7 +15,7 @@
 @media screen and (max-width:1150px) {
   .place {
     grid-template-columns: 440px 456px;
-    grid-template-rows: minmax(76px, 152px) 440px;
+    grid-template-rows: max-content 440px;
     column-gap: 32px;
   }
 }
@@ -23,7 +23,7 @@
 @media screen and (max-width:970px) {
   .place {
     grid-template-columns: 340px 352px;
-    grid-template-rows: minmax(46px, 92px) max-content;
+    grid-template-rows: max-content max-content;
     column-gap: 28px;
   }
 }
@@ -31,7 +31,6 @@
 @media screen and (max-width:740px) {
   .place {
     grid-template-columns: 240px 252px;
-    grid-template-rows: minmax(46px, 92px) max-content;
     column-gap: 28px;
   }
 }
